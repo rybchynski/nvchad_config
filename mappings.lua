@@ -5,7 +5,6 @@ M.disabled = {
 	n = {
 		["<tab>"] = "",
 		["C-s"] = "",
-		["<leader>x"] = "",
 	},
 }
 
@@ -58,12 +57,6 @@ M.tabufline = {
 				require("nvchad.tabufline").tabuflinePrev()
 			end,
 			"Goto prev buffer",
-		},
-		["<leader>c"] = {
-			function()
-				require("nvchad.tabufline").close_buffer()
-			end,
-			"Close buffer",
 		},
 	},
 }
