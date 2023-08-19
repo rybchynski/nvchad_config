@@ -30,5 +30,5 @@ Don't apply auto_config generation prompt.
 - Go to `nvim/lua` config directory: `cd ~/.config/nvim/lua`;
 - Create cutom directory: `mkdir custom && cd $_`;
 - Clone this repo;
-- Check out lspconfig server
+- Check out lspconfig servers
   [configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md);
