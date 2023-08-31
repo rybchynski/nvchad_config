@@ -15,6 +15,7 @@ local servers = {
 	"dockerls",
 	"emmet_ls",
 	"tailwindcss",
+	"prismals",
 }
 
 for _, lsp in ipairs(servers) do

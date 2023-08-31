@@ -4,7 +4,6 @@ local M = {}
 M.disabled = {
 	n = {
 		["<tab>"] = "",
-		["C-s"] = "",
 	},
 }
 

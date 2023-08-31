@@ -12,9 +12,11 @@ local sources = {
 	formatting.gofmt,
 	formatting.goimports,
 
+	formatting.phpcbf.with { filetypes = { "php" }, extra_args = { "--standard=Drupal" } },
+
 	-- lua.
 	formatting.stylua,
-	formatting.prettier.with {
+	formatting.prettierd.with {
 		filetypes = {
 			"css",
 			"scss",
@@ -26,6 +28,7 @@ local sources = {
 			"markdown.mdx",
 			"graphql",
 			"handlebars",
+			"prisma",
 		},
 	},
 }
