@@ -5,7 +5,7 @@ local highlights = require "custom.highlights"
 
 M.ui = {
 	------------------------------- base46 -------------------------------------
-	theme = "catppuccin",
+	theme = "nightowl",
 	hl_override = highlights.override,
 	hl_add = highlights.add,
 
