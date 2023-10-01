@@ -7,6 +7,16 @@ local lint = null_ls.builtins.diagnostics
 local sources = {
 	-- webdev js/ts.
 	formatting.deno_fmt,
+	-- formatting.eslint_d.with {
+	-- 	filetypes = {
+	-- 		"typescript",
+	-- 		"javascript",
+	-- 		"typescriptreact",
+	-- 		"javascriptreact",
+	-- 	},
+	-- },
+	--
+	-- lint.eslint_d,
 
 	-- golang.
 	formatting.gofmt,
@@ -29,6 +39,10 @@ local sources = {
 			"graphql",
 			"handlebars",
 			"prisma",
+			"typescript",
+			"javascript",
+			"typescriptreact",
+			"javascriptreact",
 		},
 	},
 }
